@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.searchbarContainer{
+    background-color: #FDD692;
+    height: 2.5rem;
+    width: 19.8rem;
+    margin-left: 16px;
+    margin-top: 25px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 9px  black;
+}
+
+.input{
+    font-family: 'Roboto Mono', monospace;
+    height: 1.5rem;
+    width: 12.5rem;
+    margin-top: 0.25rem;
+    background-color: transparent;
+    margin-left: 5px;
+    border: none;
+    color: #EC7357;
+    outline: none;
+    font-weight: bold;
+}
+
+.input::placeholder{
+    color: #EC7357;
+    font-weight: bold;
+}
+
+.button{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    background-color: #EC7357;
+    font-weight: bold;
+    color: #FDD692;
+    border: none;
+    margin-left: 8px;
+    border-radius: 18px;
+    height: 2rem;
+    width: 5rem;
+    margin-top: 4px;
+    transition:  0.3s ease;
+}
+
+.button:active{
+    background-color: #754F44;
+    color: #E1CE7A;
+    border-top-color: #FBFFB9;
+    border-bottom-color: #E1CE7A;
+    border-left-color: #FBFFB9;
+    border-right-color: #E1CE7A;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}

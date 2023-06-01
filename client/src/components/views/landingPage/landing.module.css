@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.landingContainer{
+    background-image: url('../../../Images/LANDING5.jpg');
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.title{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 20px;
+}
+
+.p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 20px;
+}
+
+
+.button{
+    font-family: 'Roboto Mono', monospace;
+    height: 5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    background-color: #EC7357;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-color: #F5A575;
+    border-bottom-color: #B1614E;
+    border-left-color: #F5A575;
+    border-right-color: #B1614E;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.button:active{
+    border-bottom-color: #F5A575;
+    border-top-color: #B1614E;
+    border-right-color: #F5A575;
+    border-left-color: #B1614E;
+    box-shadow: 3px 3px 10px black;
+    text-shadow: 3px 3px 10px black;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition: .1s;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.navbarContainer{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #EC7357;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3em;
+    border-bottom: 2px solid black;
+}
+
+.iconContainer{
+    /*border: solid 1px burlywood;*/
+    border: transparent;
+    height: 116px;
+    width: 300px;
+}
+
+.icon{
+    height: 90px;
+    width: 90px;
+    margin-top: 13px;
+    border-radius: 45px;
+    background-image: url('../../Images/ICON.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-color: #FDD692;
+    border-width: 3px;
+    border-style:solid;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-color: #B1614E;
+    border-width: 5px;
+    box-shadow: 4px 4px 10px  black;
+}
+
+
+.buttonsContainer{
+    /*border: solid 1px burlywood;*/
+    border: transparent;
+    height: 90px;
+    width: 500px;
+}
+
+.button{
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    height: 3rem;
+    width: 7.5rem;
+    border-radius: 0.8rem;
+    background-color: #FDD692;
+    font-size: 18px;
+    font-weight: bold;
+    color: #EC7357;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-color: #FBFFB9;
+    border-bottom-color: #E1CE7A;
+    border-left-color: #FBFFB9;
+    border-right-color: #E1CE7A;
+    margin-top: 22px;
+    margin-right: 50px;
+    margin-left: 50px;
+    transition:  0.3s ease;
+}
+
+.button:active{
+    background-color: #754F44;
+    color: #E1CE7A;
+    border-top-color: #FBFFB9;
+    border-bottom-color: #E1CE7A;
+    border-left-color: #FBFFB9;
+    border-right-color: #E1CE7A;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.searchbarContainer{
+    /*border: solid 1px burlywood;*/
+    border: transparent;
+    height: 90px;
+    width: 350px;
+}

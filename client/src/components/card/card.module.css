@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #C0A464;
+    border-radius: 13px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F2E29F;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EC7357;
+    margin-bottom: 20px;
+    color: #F2E29F;
+}
+
+.card:hover {
+    border: 3px solid #C0A464;
+    border-radius: 13px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #EC7357;
+    opacity: 1;
+    box-shadow: 3px 3px 10px black;
+    font-weight: bold;
+    transform: scale(1.05);
+}
+
+.imgContainer {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.imgContainer:hover .img {
+    opacity: 0.3;
+}
+
+.img {
+    position: absolute; /* Cambia el posicionamiento a absoluto para superponer la imagen */
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    top: 0; /* Ajusta la posición superior */
+    left: 0; /* Ajusta la posición izquierda */
+    transition: opacity 0.3s ease; /* Agrega una transición de opacidad para suavizar el efecto */
+}
+
+.nameOverlay {
+    position: absolute; /* Agrega posicionamiento absoluto para superponer el nombre */
+    top: 50%; /* Ajusta la posición superior al 50% de la tarjeta */
+    left: 50%; /* Ajusta la posición izquierda al 50% de la tarjeta */
+    transform: translate(-50%, -50%); /* Centra el nombre horizontal y verticalmente */
+    font-size: 30px; /* Ajusta el tamaño de fuente según tus necesidades */
+    color: #F2E29F; /* Cambia el color del nombre */
+    pointer-events: none; /* Evita que el nombre afecte la interacción del usuario */
+    opacity: 0; /* Establece la opacidad inicial en 0 */
+    transition: opacity 0.3s ease; /* Agrega una transición de opacidad para suavizar el efecto */
+}
+
+.card:hover .nameOverlay {
+    opacity: 1; /* Muestra el nombre cuando se activa el hover */
+}
+

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.formContainer{
+    background-image: url('../../../Images/fondoHome.jpg');
+    display: flex;
+    height: 85.7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 36rem;
+    height: 40rem;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    /*border: 3px solid black;*/
+    width: 28rem;
+    height: 2.2rem;
+    margin: 4rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #FDD692;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.label{
+    width: 3rem;
+    height: 2rem;
+    /*border: 3px solid black;*/
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #EC7357;
+}
+
+.input{
+    /*border: 3px solid black;*/
+    width: 22rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    color: #EC7357;
+    background-color: #FDD692;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
