@@ -11,7 +11,7 @@ const Landing = () => {
           MAN'S BEST FRIEND SINCE THE PAST
         </p>
         <Link to="/home">
-          <button className={style.button}> ENTER </button>
+          <button className={style.button}> ENTERs </button>
         </Link>
       </div>
     </div>
